@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Niall's Car Website</title>
+		
+		<script type="text/javascript" src="JavaScript/underscore-min.js"></script>
+		<script type="text/javascript" src="JavaScript/jquery-2.2.1.js"></script>
+		<script type="text/javascript" src="JavaScript/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="JavaScript/backbone.js"></script>
+		<script type="text/javascript" src="JavaScript/bootstrap.js"></script>
+		<script type="text/javascript" src="JavaScript/dataTables.bootstrap.js"> </script>
+		<script type="text/javascript" src="JavaScript/dataTables.bootstrapPagination.js"> </script>
+		<script type="text/javascript" src="JavaScript/ViewFunctions.js"></script>
+		
+		<link rel="stylesheet" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/styles.css"/> 
+		
+	</head>
+	
+	<body>
+						
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+		  <li class="active"><a href="#about" role="tab" data-toggle="tab">About</a></li>
+		  <li><a href="#Directory" role="tab" data-toggle="tab">Directory</a></li>
+		  <li><a href="#CarsList" role="tab" data-toggle="tab">Cars List</a></li>
+		</ul>
+		
+		<!-- Tab panes -->
+		<div class="tab-content">		
+			<div class="tab-pane active" id="about">
+				<br><p>This is my website based on finding out the specifications of all types of cars from around the world</p></br>
+				<p><img src="images/headerImage.jpg" alt="..."></p>
+			</div>
+			
+			<div class="tab-pane" id="Directory">
+				<table id="myTable">
+				<thead><tr><th>Make </th><th>Model </th><th>Year </th><th>More Info </th><th>Edit</th></tr></thead>
+				<tbody id="myTBody"></tbody>
+				</table>
+			</div>
+			
+			<div class="tab-pane" id="CarsList">
+				<br><p10>Select new Car</p10>
+				<select id="CarsList">
+					<option value="Subaru">Subaru</option>
+					<option value="BMW">BMW</option>
+					<option value="Audi">Audi</option>
+				</select>
+				<button type="button" id="CarsListButton">Select</button>
+				
+				<table id="myCarTable">
+					<thead><tr><th>Make</th><th>Model</th><th>Picture</th></thead>
+					<tbody id="myCarTBody"></tbody>
+				</table>
+			</div>
+		</div>
+
+		<footer>
+		 <p>&copy Msc in Software Engineering. A00144538. Niall Collins</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,176 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+html{
+	height: 100%;
+	background-color: #0d541b;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+	background-color: #07b52a;
+	border: 1px hidden gray;
+	border-radius: 25px;
+	padding: 5px, 5px, 5px, 5px;
+	margin-bottom: 5px;
+}
+
+h1{
+	text-align:center;
+}
+
+#banner{
+	z-index: 1; 
+	position:absolute;
+	margin-left: 3cm;
+}
+
+#login{
+	z-index: 1; 
+	position: absolute;
+	float: right;
+	margin-right: 3cm;
+}
+
+ div.c-wrapper{
+    width: 80%; 
+    margin: auto;
+}  
+
+body{
+	background-color: white;
+	width: 1200px;
+	height: auto;
+	padding: 5px;
+	margin: auto;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 10px 10px 30px #888888;
+}
+
+#ServerSearch{
+	margin-top: 10px;
+}
+
+#about{
+	text-align: center;
+}
+
+#featured{
+	margin-left:50px;
+}
+
+#featuredlist{
+	margin-bottom:3cm;
+}
+
+h9{
+	text-align: centre;
+	text-color: blue;
+}
+
+#map{
+	width: 500px;
+	height: 400px;
+	margin-right: 300px;
+	margin-bottom: 3cm;
+	float: right;
+}
+
+#newreleases{
+	text-align: center;	
+}
+
+footer{
+	background-color: #07b52a;
+	border-style: solid;
+    border-width: 2px 2px 2px 2px;	
+    border-radius: 25px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+span{
+	font-size: 70%;
+	text-color: grey;
+	font-style: italic;
+}
+
+footer p{
+	text-align: center;
+	font-style: bold;
+}
+/*---------------------------------------------------------------------------*/
+/* Modal CSS																 */
+/*---------------------------------------------------------------------------*/
+#DetailsModal .modal-header{
+	background: linear-gradient(45deg, grey 0%, white 50%, grey 100%);
+	text-align: center;
+}
+
+#DetailsPic{
+	margin-top: 5px;
+	padding: auto;
+	float: right;
+}
+
+#DetailsVid{
+	display: block;
+	margin: 0 auto;
+}
+
+#MovieDetails{
+	padding-top: 10px;
+	margin: 5px,5px,1px,5px;
+}
+
+#DetailsModal .modal-footer{
+	background: linear-gradient(45deg, grey 0%, white 50%, grey 100%);
+	margin-top: 3px;
+}
+
+#btnAddNewMovie{
+	float: left;
+}
+
+#EditModal .modal-header{
+	background: linear-gradient(45deg, #b20000 0%, white 50%, #b20000 100%);
+	text-align: center;
+}
+
+#MovieSearch{
+	margin-bottom: 5px;
+}
+
+#editpic{
+	margin-top: 5px;
+	padding: auto;
+	float: right;
+}
+
+#editpicsrc{
+	display: none;
+}
+
+#btnEditSave:hover{
+	background-color: #cc0000;
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+#btnDeleteMovie:hover{
+	background-color: #cc0000;
+	box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+
+#btnCancelChanges:hover{
+	background-color: #93DB70;
+}
+
+#EditModal .modal-footer{
+	background: linear-gradient(45deg, #b20000 0%, white 50%, #b20000 100%);
+}
